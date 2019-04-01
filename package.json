@@ -1,0 +1,30 @@
+{
+  "name": "rawb-site-id-middleware",
+  "version": "1.0.0",
+  "description": "A Koa middleware to set a siteid and other props depending on the ctx.host",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/24hr-malmo/rawb-site-id-middleware.git"
+  },
+  "keywords": [
+    "koa",
+    "host"
+  ],
+  "author": "Camilo Tapia <camilo.tapia@24hr.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/24hr-malmo/rawb-site-id-middleware/issues"
+  },
+  "homepage": "https://github.com/24hr-malmo/rawb-site-id-middleware#readme",
+  "dependencies": {
+    "is-match-ip": "1.0.0",
+    "wildstring": "1.0.9"
+  }
+}
