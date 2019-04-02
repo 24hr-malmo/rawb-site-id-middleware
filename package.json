@@ -1,6 +1,6 @@
 {
   "name": "rawb-site-id-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Koa middleware to set a siteid and other props depending on the ctx.host",
   "main": "index.js",
   "directories": {
